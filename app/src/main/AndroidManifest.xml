@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/chuck_icon_laucher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/chuck_icon_laucher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChuckNorrisProject">
         <activity android:name=".adapter.JokeRecyclerViewActivity"></activity>
