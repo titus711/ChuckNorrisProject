@@ -1,2 +1,2 @@
 # ChuckNorrisProject
-A Kotlin android application implementing the MVVM architecture pattern using retrofit for rest services
+A Kotlin android application implementing the MVVM architecture using some of the android architecture components and retrofit for rest services
