@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChuckNorrisProject">
+        <activity android:name=".adapter.JokeRecyclerViewActivity"></activity>
         <activity
             android:name=".JokeSplashActivity"
             android:theme="@style/Theme.Design.NoActionBar">
@@ -20,7 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
