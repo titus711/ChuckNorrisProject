@@ -7,15 +7,15 @@ import android.os.Handler
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import com.titusnangi.chucknorrisproject.adapter.JokeRecyclerViewActivity
+import kotlinx.android.synthetic.main.activity_joke_splash.*
 
 class JokeSplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_joke_splash)
 
-        val backGrounding: ImageView = findViewById(R.id.splash_logo)
         val sideAnimation = AnimationUtils.loadAnimation(this, R.anim.slide)
-        backGrounding.startAnimation(sideAnimation)
+        splash_logo.startAnimation(sideAnimation)
 
         Handler().postDelayed({
             startActivity(Intent(this, JokeRecyclerViewActivity::class.java))
