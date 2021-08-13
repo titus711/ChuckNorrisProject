@@ -66,7 +66,8 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolde
             if (!TextUtils.isEmpty(data.value)) {
                 jokeValue.text = data.value
             } else {
-                jokeValue.text = "No Joke displayed."
+                val myText = "No Joke displayed."
+                jokeValue.text = myText
             }
 
             val url = data.icon_url

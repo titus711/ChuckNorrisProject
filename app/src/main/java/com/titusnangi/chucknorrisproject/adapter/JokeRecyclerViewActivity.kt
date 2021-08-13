@@ -66,7 +66,7 @@ class JokeRecyclerViewActivity : AppCompatActivity() {
                 recyclerViewAdapter.notifyDataSetChanged()
             } else {
                 Toast.makeText(
-                    this@JokeRecyclerViewActivity, "Error generated in getting jokes.",
+                    this@JokeRecyclerViewActivity, "Error generated whilst getting jokes.",
                     Toast.LENGTH_LONG
                 ).show()
             }
